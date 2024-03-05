@@ -2,37 +2,93 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-name { 
+  font-size: 2rem; 
+  color: rgb(46, 46, 45); 
+  margin-bottom: 16px; 
+  font-family: 'Arial Narrow', Arial;
+} 
+
+.blank{
+  background-color:  #fdfdfd;
+  color: #fdfdfd;
+  border-color: #fdfdfd;
+  border: 2px solid transparent;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.warning {
+  font-family: 'Arial', Verdana,  Tahoma, sans-serif;
+  font-size: medium;
+  color: rgb(46, 46, 45);
+  width: 100%;  
+  box-sizing: border-box; 
+  border: 2px solid rgba(238, 236, 145, 0.801);
+  background-color: rgb(214, 213, 159);
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #fdfdfd;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(15, 15, 15);
 }
 
-.App-link {
-  color: #61dafb;
+.form-label{
+  font-weight: 500;
+  margin-top: 1rem;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  margin-right: 2rem;
+  display: block;
+  align-items: start;
+  justify-content: left;
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.nameInput {
+  padding: 0.6rem 1.5rem;
+  background-color: #ffffff;
+  font-weight: 400;
+  font-size: 0.9rem;
+  display:block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 75%;
 }
+
+.confirmButton{
+  cursor: pointer;
+  background: #2e30c7;
+  padding: 0.85rem 2rem;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.25rem;
+  width: 29.1%;
+  margin: 2.5 rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.success{
+  color: rgb(10, 245, 147);
+}
+
+.icon1{
+  padding: 0rem 8rem;
+  display: block;
+  align-items: center;
+}
+
+
+
+
